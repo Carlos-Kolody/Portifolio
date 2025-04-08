@@ -1,0 +1,121 @@
+Portiflio 1:
+HTML: 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <main>
+        <h2>Eleve seu negócio digital a outro nível <strong id="h1_destaque">com um Front-End de qualidade!</strong></h2>
+        <img src="Eu mesmo.jpg" alt="Minha imagem de perfil" class="profile-img">
+        <section>
+            <h3>Sobre Mim</h3>
+            <p>Sou estudante de Engenharia de Software no quinto ano de faculdade, com grande interesse em banco de dados, analise de dados e gerenciamento de projetos. Sempre buscando aprimorar minhas habilidades e aprender novas tecnologias.</p>
+        </section>
+        <section>
+            <h3>Experiência</h3>
+            <ul>
+                <li>Estágio de TI em gerenciamento de Projetos na CELEPAR (em andamento)</li>
+                <li>Aprensdiz na Elos Eletrotecnica</li>
+                <li>Estágio na SCD GRAPHO</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Habilidades</h3>
+            <ul>
+                <li><strong>Linguagens de Programação:</strong></li>
+                <li>C# e Java</li>
+                <li><strong>Banco de Dados:</strong></li>
+                <li>MySQL e MongoDB</li>
+                <li><strong>Ferramentas e Tecnologias:</strong></li>
+                <li>AutoCAD, PowerApps e Pacote Office</li>
+                <li><strong>Outras Habilidades:</strong></li>
+                <li>Manuetnção de Computadores e Inglês Intermediario</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Contato</h3>
+            <div class="links">
+                <a href="https://github.com/Carlos-Kolody" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/carloskolody/" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Meu Nome | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
+CSS:
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+    margin-bottom: 20px;
+}
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.links a:hover {
+    background-color: #555;
+}
+h1, h2, h3 {
+    text-align: center; /* Centraliza os títulos */
+}
