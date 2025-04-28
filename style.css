@@ -8,7 +8,7 @@
 body {
   background-color: #0d0d1a;
   color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Navbar */
@@ -47,6 +47,7 @@ body {
   color: #ccc;
   text-decoration: none;
   transition: color 0.3s;
+  font-weight: 500;
 }
 
 .nav-links a:hover {
